@@ -82,7 +82,6 @@ ALTERNATE_NAMES = {
 IGNORABLE_CATEGORIES = [
     "hard_land",
     "grab_range",
-    "hard_land",
     "weight",
     "#1",
     "#2",
@@ -150,7 +149,7 @@ def get_dictionary():
 
 
 def get_image(path):
-    return OffsetImage(plt.imread(path), zoom=.2)
+    return OffsetImage(plt.imread(path), zoom=.25)
 
 
 def get_matrix(dictionary):
